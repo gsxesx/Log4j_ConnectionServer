@@ -3,7 +3,8 @@
 ## Copyright Matt Langguth | @GSXESX
 
 ## VMware Reference KB: https://kb.vmware.com/s/article/87073
-##
+
+##ONLY RUN ONCE PER CONNECTION SERVER!
 
 ## Set Value MessageBusService
 $MessageBusService = Get-ItemPropertyValue -Path "HKLM:\Software\VMware, Inc.\VMware VDM\plugins\wsnm\MessageBusService\Params\" -Name "JVMOptions"
