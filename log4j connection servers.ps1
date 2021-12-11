@@ -1,4 +1,6 @@
 ## Assumes all keys exist
+## Version 1.0 | 12.11.21
+## Copyright Matt Langguth | @GSXESX
 
 ## Set Value MessageBusService
 $MessageBusService = Get-ItemPropertyValue -Path "HKLM:\Software\VMware, Inc.\VMware VDM\plugins\wsnm\MessageBusService\Params\" -Name "JVMOptions"
