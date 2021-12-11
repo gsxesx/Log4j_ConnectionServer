@@ -20,4 +20,4 @@ $TunnelService = Get-ItemProperty -Path "HKLM:\Software\VMware, Inc.\VMware VDM\
 $UpdatedValue3 = $TunnelService + " -Dlog4j2.formatMsgNoLookups=true"
 Set-ItemProperty -Path "HKLM:\Software\VMware, Inc.\VMware VDM\plugins\wsnm\TunnelService\Params\" -Name "JVMOptions" -Value $UpdatedValue3
 
-restart-service VMware Horizon View Connection Server -Force
+restart-service "VMware Horizon View Connection Server" -Force
