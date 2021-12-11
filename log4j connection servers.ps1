@@ -2,6 +2,9 @@
 ## Version 1.0 | 12.11.21
 ## Copyright Matt Langguth | @GSXESX
 
+## VMware Reference KB: https://kb.vmware.com/s/article/87073
+##
+
 ## Set Value MessageBusService
 $MessageBusService = Get-ItemPropertyValue -Path "HKLM:\Software\VMware, Inc.\VMware VDM\plugins\wsnm\MessageBusService\Params\" -Name "JVMOptions"
 $UpdatedValue1 = $MessageBusService + " -Dlog4j2.formatMsgNoLookups=true"
