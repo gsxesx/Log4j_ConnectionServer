@@ -1,8 +1,8 @@
 ## Assumes all keys exist
-## Version 1.0 | 12.11.21
+## Version 1.1 | 06.24.24
 ## Copyright Matt Langguth | @GSXESX
 
-## VMware Reference KB: https://kb.vmware.com/s/article/87073
+## Omnissa Reference KB: https://kb.omnissa.com/s/article/87073
 
 ##ONLY RUN ONCE PER CONNECTION SERVER!
 
